@@ -3,7 +3,7 @@
     v-container.text-xs-center(grid-list-md)
       v-layout(row, wrap, justify-center)
         v-flex(xs12)
-          h2.display-1.pb-3 Equipo Organizador
+          h2.display-1.mb-3 Equipo Organizador
         v-flex(
           xs12,
           sm4,
