@@ -14,7 +14,7 @@
             v-img(
               height="auto",
               width="100%",
-              max-height="250px"
+              :max-height="sponsor.maxHeight"
               :src="sponsor.image"
               aspect-ratio="1",
               contain
@@ -29,17 +29,8 @@ export default {
         {
           id: 1,
           page: 'https://nodesource.com/',
-          image: require('@/assets/node-source.png')
-        },
-        {
-          id: 2,
-          page: 'https://colombia-dev.org',
-          image: require('@/assets/colombia-dev.svg')
-        },
-        {
-          id: 3,
-          page: 'http://www.sti.org.co/',
-          image: 'http://www.sti.org.co/images/plantilla/logo-sti.png'
+          image: require('@/assets/node-source.png'),
+          maxHeight: '350px'
         }
       ]
     }
