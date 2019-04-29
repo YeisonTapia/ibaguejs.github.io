@@ -29,16 +29,15 @@ export default {
         {
           id: 1,
           page: 'http://www.sti.org.co/',
-          image: 'http://www.sti.org.co/images/plantilla/logo-sti.png',
-          maxHeight: '250px'
-        },  
+          image: require('@/assets/sti.png'),
+          maxHeight: '150px'
+        },
         {
           id: 2,
           page: 'https://colombia-dev.org',
           image: require('@/assets/colombia-dev.svg'),
           maxHeight: '250px'
         },
-        
         {
           id: 3,
           page: 'https://www.ucc.edu.co/ibague/Paginas/inicio.aspx',
@@ -56,7 +55,7 @@ export default {
           page: 'https://sundevs.com/',
           image: require('@/assets/sun-devs.png'),
           maxHeight: '180px'
-        },
+        }
       ]
     }
   }

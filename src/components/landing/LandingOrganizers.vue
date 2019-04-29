@@ -48,7 +48,7 @@ export default {
         case 'coorganizer':
           return 'Co-Organizador'
         case 'assistant_organizer':
-          return 'Asistente Organizadorador'
+          return 'Asistente Organizador'
         default:
           return role
       }
