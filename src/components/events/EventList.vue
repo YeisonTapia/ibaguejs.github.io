@@ -74,12 +74,22 @@ export default {
     }
   },
   created() {
-    MeetupService.getUpcomingEvents(this.page).then(
-      res => (this.upcomingEvents = res.data)
-    )
-    MeetupService.getPreviousEvents(this.page).then(
-      res => (this.previousEvents = res.data)
-    )
+    this.$nextTick(() => {
+      this.getUpcomingEvents()
+      this.getPastEvents()
+    }) 
+  },
+  methods: {
+    getUpcomingEvents() {
+      MeetupService.getEvents(this.page, 'upcoming').then(
+        res => (this.upcomingEvents = res.data)
+      )
+    },
+    getPastEvents() {
+      MeetupService.getEvents(this.page, 'past').then(
+        res => (this.previousEvents = res.data)
+      )
+    }
   }
 }
 </script>
