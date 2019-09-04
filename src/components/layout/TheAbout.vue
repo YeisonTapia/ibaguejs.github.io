@@ -10,7 +10,7 @@
               | para aprender y compartir conocimiento sobre JavaScript. Nos regimos bajo un 
               strong
                 a.black--text(
-                  href="https://github.com/colombia-dev/codigo-de-conductad"
+                  href="https://github.com/colombia-dev/codigo-de-conducta"
                 ) Código de Conducta 
               | que aplica a los integrantes, asistentes, patrocinadores y organizadores
               | del grupo, esto con el objetivo de propiciar un ambiente sin acoso e
