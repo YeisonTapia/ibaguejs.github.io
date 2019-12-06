@@ -88,16 +88,16 @@ export default {
     </p>
     <h3>🗣️ React en su mínima expresión - Yeison Tapia</h3>
     <p>
-      En esta charla vamos a entender React a partir de funciones básicas de
-      JavaScript, veremos que no siempre necesitamos un acoplamiento de varios
+      Entenderemos React a partir de funciones básicas de
+      JavaScript, además veremos que no siempre necesitamos un acoplamiento de varios
       módulos para comenzar a aprender o desarrollar en esta tecnología.
     </p>
     <h3>📅 Información sobre la programación.</h3>
     <ul>
-      <li>[ 10:00-10:15 ] Llegada asistentes + Networking.<br /></li>
-      <li>[ 10:15-11:00 ] Charla 1 + Preguntas.<br /></li>
-      <li>[ 11:00-11:15 ] Refrigerio + Networking.<br /></li>
-      <li>[ 11:15-12:00 ] Charla 2 + Preguntas.<br /></li>
+      <li>[ 14:00-14:15 ] Llegada asistentes + Networking.<br /></li>
+      <li>[ 14:15-14:00 ] Charla 1 + Preguntas.<br /></li>
+      <li>[ 14:00-15:15 ] Refrigerio + Networking.<br /></li>
+      <li>[ 15:15-16:00 ] Charla 2 + Preguntas.<br /></li>
     </ul>
     <h3>⚠️ Notas/Avisos:</h3>
     <ul>
