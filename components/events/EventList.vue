@@ -95,8 +95,8 @@ export default {
     <h3>📅 Información sobre la programación.</h3>
     <ul>
       <li>[ 14:00-14:15 ] Llegada asistentes + Networking.<br /></li>
-      <li>[ 14:15-14:00 ] Charla 1 + Preguntas.<br /></li>
-      <li>[ 14:00-15:15 ] Refrigerio + Networking.<br /></li>
+      <li>[ 14:15-15:00 ] Charla 1 + Preguntas.<br /></li>
+      <li>[ 15:00-15:15 ] Refrigerio + Networking.<br /></li>
       <li>[ 15:15-16:00 ] Charla 2 + Preguntas.<br /></li>
     </ul>
     <h3>⚠️ Notas/Avisos:</h3>
