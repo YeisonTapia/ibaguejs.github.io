@@ -21,7 +21,7 @@
           v-avatar
             v-icon(size="14px") fas fa-calendar-day
           | {{ event.local_date }} / {{ event.local_time }}
-        v-chip(label, small, color="success", text-color="white")
+        v-chip.d-none(label, small, color="success", text-color="white")
           v-avatar
             v-icon(size="14px") fas fa-walking
           | {{ event.yes_rsvp_count }}

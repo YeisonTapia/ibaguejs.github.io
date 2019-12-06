@@ -114,7 +114,7 @@ export default {
 </div>
 `,
           venue: {
-            name: 'Boom Auditorio Stand-up | Carrera 5 # 43-182 · Ibagué'
+            name: 'Boom Auditorio Stand-up | Cr. 5 # 43-182'
           },
           local_date: '2019-12-14',
           local_time: '2:00 pm',
