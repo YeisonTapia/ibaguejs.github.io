@@ -123,7 +123,7 @@ export default {
     </ul>
     <p>
       Los esperamos el próximo sábado 25 de Enero desde las 10:00 a.m, en la
-      Universidad de Ibagué.
+      CUN Ibagué.
     </p>
     <h3>🤔 Que no se nos olvide:</h3>
     <ul>
