@@ -137,6 +137,9 @@ export default {
         atención al cuidado de sus pertenencias. Cada persona es responsable del
         cuidado y de mantener sus pertenencias seguras.
       </li>
+      <li>
+      <a href="https://github.com/IbagueJS/workshop-javascript/tree/master/taller-1/">Enlace al taller</a>
+      </li>
     </ul>
     <br>
     <p class="text-xs-center"><em>ANÍMATE TE ESPERAMOS!!!</em></p>
