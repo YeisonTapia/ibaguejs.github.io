@@ -1,24 +1,24 @@
 <template>
-  <div>
-    <v-tabs> 
-      <v-tab 
-        ripple
-        v-for="(tab, index) in tabs"
-        :key="index"
-        :href="`#tab-${index}`">
-        {{tab.name}}
-      </v-tab>
-      <v-tab-item
-        v-for="(tab, index) in tabs"
-        :key="index"
-        :value="'tab-' + index">
-        <component 
-        :events="tab.componentName == 'EventListUpcoming' ? eventtUpcoming : eventPrevious"
-        :is="tab.componentName" />
-      </v-tab-item>
-    </v-tabs>
-    
-  </div>
+  <v-tabs 
+    class="pt-10"
+    slider-color="yellow"
+    centered> 
+    <v-tab 
+      ripple
+      v-for="(tab, index) in tabs"
+      :key="index"
+      :href="`#tab-${index}`">
+      {{tab.name}}
+    </v-tab>
+    <v-tab-item
+      v-for="(tab, index) in tabs"
+      :key="index"
+      :value="'tab-' + index">
+      <component 
+      :events="tab.componentName == 'EventListUpcoming' ? eventtUpcoming : eventPrevious"
+      :is="tab.componentName" />
+    </v-tab-item>
+  </v-tabs>
 </template>
 
 <script>
@@ -43,10 +43,18 @@ export default {
   },
   computed:{
     eventtUpcoming(){
-      return []
+      return [
+        {
+          name: 'eventtUpcoming 1'
+        }
+      ]
     },
     eventPrevious(){
-      return []
+      return [
+        {
+          name: 'eventPrevious 1'
+        }
+      ]
     }
   }
 }

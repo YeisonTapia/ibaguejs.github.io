@@ -1,5 +1,5 @@
 <template>
-	<div class="hero py-12">
+	<div class="bg-yellow py-12">
 		<v-row
 			class=" py-12"
 			align="center"

@@ -38,4 +38,7 @@ export default {
   .hero{
     background: #ffe400 !important;
   }
+  .bg-yellow{
+    background: #ffe400 !important;
+  }
 </style>
